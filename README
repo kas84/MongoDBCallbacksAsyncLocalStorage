@@ -7,3 +7,24 @@ Works just fine with mongodb promises
 [0.21756164732220062] request received setTimeout
 [undefined] request callback received
 [0.21756164732220062] request promise received
+
+
+When used with {useUnifiedTopology:true} , instead of undefined, you get the store, but on subsequent requests, you still get the first store
+
+[0.7697388970645624] request received
+[0.7697388970645624] request received setTimeout
+[0.7697388970645624] request callback received
+[0.7697388970645624] request promise received
+
+
+[0.6329185718150439] request received
+[0.6329185718150439] request received setTimeout
+[0.7697388970645624] request callback received
+[0.6329185718150439] request promise received
+
+
+[0.2698320081709449] request received
+[0.2698320081709449] request received setTimeout
+[0.2698320081709449] request promise received
+[0.7697388970645624] request callback received
+
