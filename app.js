@@ -27,7 +27,8 @@ MongoClient.connect(url, function (err, db) {
 
     setTimeout(()=>{
       const id2 = asyncLocalStorage.getStore().get('requestId')
-      console.log("request id in setTimeout",id2)
+      console.log(`[${id2}] request received setTimeout`)
+
     })
 
     //as callback

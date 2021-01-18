@@ -1,0 +1,9 @@
+asyncLocalStorage store is Lost on mongodb callbacks
+============
+
+Works just fine with mongodb promises
+
+[0.21756164732220062] request received
+[0.21756164732220062] request received setTimeout
+[undefined] request callback received
+[0.21756164732220062] request promise received
